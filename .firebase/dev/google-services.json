@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "109124003133",
+    "project_id": "panda-platform-dev-939c7",
+    "storage_bucket": "panda-platform-dev-939c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109124003133:android:d3b1f24e4a608bf4e21154",
+        "android_client_info": {
+          "package_name": "com.ukihome.panda_wordchanger.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109124003133-njmkkodmlctnl2lnmqn5c76ebfmqjv5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs4Llg2suev_dGV4s-mt38D3ZPLn5sZME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109124003133-njmkkodmlctnl2lnmqn5c76ebfmqjv5p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "109124003133-8li0fcnhlhsidjukbsjldf69eniip7vd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ukihome.panda-wordchanger.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

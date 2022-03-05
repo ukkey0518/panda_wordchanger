@@ -11,6 +11,7 @@ environment:
 dependencies:
   cupertino_icons: ^1.0.4
   flutter: { sdk: flutter }
+  flutter_flavorizr: ^2.1.2
   flutter_screenutil: ^5.3.1
 
 dev_dependencies:
@@ -36,3 +37,32 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
 
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+    ios:
+
+  flavors:
+    dev:
+      app:
+        name: "panda-wordchanger-dev"
+      android:
+        applicationId: "com.ukihome.panda_wordchanger.dev"
+        firebase:
+          config: ".firebase/dev/google-services.json"
+      ios:
+        bundleId: "com.ukihome.panda-wordchanger.dev"
+        firebase:
+          config: ".firebase/dev/GoogleService-Info.plist"
+    prd:
+      app:
+        name: "panda-wordchanger-prd"
+      android:
+        applicationId: "com.ukihome.panda_wordchanger.prd"
+        firebase:
+          config: ".firebase/prd/google-services.json"
+      ios:
+        bundleId: "com.ukihome.panda-wordchanger.prd"
+        firebase:
+          config: ".firebase/prd/GoogleService-Info.plist"
