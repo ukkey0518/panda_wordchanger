@@ -2,4 +2,5 @@
 
 FLUTTER_TARGET=lib/app/main_prd.dart
 ASSET_PREFIX=prd
-BUNDLE_NAME=panda-wordchanger-prd
+BUNDLE_DISPLAY_NAME=ぱんだ変換
+BUNDLE_NAME=ぱんだ文字列変換
