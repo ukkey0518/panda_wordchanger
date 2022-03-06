@@ -13,6 +13,7 @@ dependencies:
   flutter: { sdk: flutter }
   flutter_flavorizr: ^2.1.2
   flutter_screenutil: ^5.3.1
+  import_sorter: ^4.6.0
 
 dev_dependencies:
   flutter_test: { sdk: flutter }
