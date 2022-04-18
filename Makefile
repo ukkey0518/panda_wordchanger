@@ -7,8 +7,8 @@ show:
 ## --- ###
 
 setup:
-	fvm flutter clean
-	fvm flutter pub get
+	@fvm flutter clean
+	@fvm flutter pub get
 
 sort-import:
-	fvm flutter pub run import_sorter:main
+	@fvm flutter pub run import_sorter:main
